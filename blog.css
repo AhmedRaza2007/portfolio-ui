@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+    line-height: 1.5;
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px 0;
+}
+ 
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.nav-links a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links a.active {
+    color: #FF6464;
+}
+
+.nav-links a:hover {
+    color: #FF6464;
+}
+
+ul {
+  list-style: none;
+}
+
+.page-title {
+    font-size: 34px;
+    font-weight: 900;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.blog-list {
+    margin-bottom: 80px;
+}
+
+.blog-item {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.blog-item:last-child {
+    border-bottom: none;
+}
+
+.blog-item h2 {
+font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #21243D;
+}
+
+.blog-meta {
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 400;
+    color: #21243D;
+}
+
+.blog-meta .date {
+    color: #21243D;
+}
+
+.blog-meta .separator {
+    color: #000;
+}
+
+.blog-meta .category {
+    color: #8695A4;
+}
+
+.blog-item p {
+    font-size: 16px;
+    color: #21243D;
+    font-weight: 400;
+}
+
+footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 25px;
+}
+
+.social-links i {
+    font-size: 30px;
+    color: #21243D;
+}
+
+.social-links a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover i {
+    color: #FF6464;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .page-title {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .blog-item h2 {
+        font-size: 22px;
+    }
+
+    .blog-meta {
+        font-size: 16px;
+    }
+
+    .nav-links {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+    }
+}
