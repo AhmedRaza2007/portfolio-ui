@@ -1,76 +1,185 @@
-Portfolio UI
+# Portfolio UI
 
-A modern and responsive portfolio website built with HTML and CSS inspired by a Figma community design. This project was created to practice frontend development skills and convert a UI design into a fully responsive website.
+A modern and responsive portfolio website built with **HTML5** and **CSS3** inspired by a Figma community design.
 
-The portfolio includes clean layouts, modern styling, and multiple sections to showcase personal information, skills, and projects.
+This project was created to practice frontend development skills by converting a professional UI design into a fully responsive website.
 
-🔗 Links
-Live Demo: portfolio-ui-pearl.vercel.app
-Figma Design: https://www.figma.com/community/file/882879599442878081
-GitHub Repository: https://github.com/AhmedRaza2007/portfolio-ui
-✨ Features
-Responsive Design
-Clean UI Layout
-Modern CSS Styling
-Navigation Menu
-Portfolio Sections
-Works / Projects Page
-Mobile Friendly Design
-Reusable Components
-🛠️ Technologies Used
-HTML5
-CSS3
-📂 Pages & Sections
-Home Page
+The website includes multiple sections such as Home, About, Skills, Works, and Contact with a clean and modern user interface.
 
-Contains the main introduction section with navigation links and portfolio overview.
+---
 
-About Section
+## 🔗 Links
 
-Displays personal information and introduction.
+- Live Demo: https://portfolio-ui-pearl.vercel.app
+- Figma Design: https://www.figma.com/community/file/882879599442878081
+- GitHub Repository: https://github.com/AhmedRaza2007/portfolio-ui
 
-Skills Section
+---
 
-Shows frontend development skills and technologies.
+## ✨ Features
 
-Works / Projects Page
+- Fully Responsive Design
+- Modern UI Layout
+- Clean and Organized Code
+- Navigation Bar
+- Portfolio / Works Page
+- Mobile Friendly Interface
+- Reusable CSS Components
+- Smooth Layout Structure
+- Separate CSS Files
+- Multi-page Website
 
-A separate page created to showcase portfolio projects and designs.
+---
 
-Contact Section
+## 🛠️ Technologies Used
 
-Includes contact information and social links.
+| Technology | Purpose |
+|------------|----------|
+| HTML5 | Structure of Website |
+| CSS3 | Styling and Layout |
+| Vercel | Deployment / Hosting |
+| Git & GitHub | Version Control |
 
-🎯 Purpose of This Project
+---
 
-The main purpose of this project was to practice converting a professional Figma UI design into a fully responsive website using only HTML and CSS.
+## 📂 Project Structure
 
-🚀 Getting Started
+```bash
+portfolio-ui/
+│
+├── index.html
+├── work.html
+├── style.css
+├── work.css
+└── assets/
+```
 
-Clone the repository:
+---
 
+## 📄 Pages Included
+
+### 🏠 Home Page
+The landing page contains:
+- Introduction section
+- Navigation menu
+- Hero content
+- Portfolio overview
+
+### 👨‍💻 About Section
+Contains personal introduction and short information about the developer.
+
+### 🛠️ Skills Section
+Displays frontend development skills and technologies used in the project.
+
+### 🎨 Works / Projects Page
+A separate page to showcase portfolio works and UI designs.
+
+### 📞 Contact Section
+Contains contact details and social media links.
+
+---
+
+## 🎯 Project Goal
+
+The main goal of this project was to:
+
+- Practice converting Figma designs into real websites
+- Improve HTML & CSS skills
+- Learn responsive web design
+- Understand layout structuring and styling techniques
+
+---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/AhmedRaza2007/portfolio-ui.git
+```
 
-Open the project folder:
+### 2️⃣ Open Project Folder
 
+```bash
 cd portfolio-ui
+```
 
-Run the project by opening index.html in your browser.
+### 3️⃣ Run the Project
 
-🌐 Live Preview
+Open `index.html` in your browser.
 
-Visit the live website here:
+---
 
-portfolio-ui-pearl.vercel.app
+## 🌐 Deployment
 
-📌 Future Improvements
-Add JavaScript functionality
-Add animations and transitions
-Improve responsiveness
-Add dark mode
-Add backend contact form
-👨‍💻 Author
+This project is deployed on **Vercel**.
 
-Created by Ahmed Raza.
+### Live Website
 
-If you like this project, give it a ⭐ on GitHub.
+https://portfolio-ui-pearl.vercel.app
+
+---
+
+## 🔧 Git Commands Used
+
+### Initialize Git
+
+```bash
+git init
+```
+
+### Add Files
+
+```bash
+git add .
+```
+
+### Commit Changes
+
+```bash
+git commit -m "Initial project setup"
+```
+
+### Connect GitHub Repository
+
+```bash
+git remote add origin https://github.com/AhmedRaza2007/portfolio-ui.git
+```
+
+### Push Code to GitHub
+
+```bash
+git push -u origin main
+```
+
+---
+
+## 📌 Future Improvements
+
+- Add JavaScript functionality
+- Add animations and transitions
+- Improve accessibility
+- Add dark mode
+- Add backend contact form
+- Add more projects section
+- Optimize website performance
+
+---
+
+## 📸 Preview
+
+This portfolio UI was recreated from a Figma template using only HTML and CSS for practice and learning purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Ahmed Raza**
+
+- GitHub: https://github.com/AhmedRaza2007
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub and share your feedback.
